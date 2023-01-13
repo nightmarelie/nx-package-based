@@ -15,3 +15,11 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## Initialization
+
+`npx create-nx-workspace@latest nx-package-based --preset=npm --packageManager=yarn`
+
+## Commands
+
+`yarn build`

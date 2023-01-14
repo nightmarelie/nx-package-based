@@ -27,6 +27,10 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 `yarn build:is-even`
 `yarn build:is-odd`
 
-### Running Multiple Tasks
+### Running Multiple Tasks. Bypassing the cache
 
-`yarn build`
+`yarn build --skip-nx-cache`
+
+### Running Multiple Tasks. That Got Changed Package
+
+`yarn build:affected`

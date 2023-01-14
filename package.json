@@ -5,7 +5,8 @@
   "scripts": {
     "build:is-even": "yarn nx build is-even",
     "build:is-odd": "yarn nx build is-odd",
-    "build": "yarn nx run-many --target=build"
+    "build": "yarn nx run-many --target=build",
+    "build:affected": "yarn nx affected --target=build --base=master --head=HEAD"
   },
   "private": true,
   "dependencies": {},

@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "yarn nx build is-even"
+    "build:is-even": "yarn nx build is-even",
+    "build:is-odd": "yarn nx build is-odd",
+    "build": "yarn nx run-many --target=build"
   },
   "private": true,
   "dependencies": {},

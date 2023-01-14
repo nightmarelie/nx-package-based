@@ -22,4 +22,11 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 ## Commands
 
+### Running Builds
+
+`yarn build:is-even`
+`yarn build:is-odd`
+
+### Running Multiple Tasks
+
 `yarn build`
